@@ -1,0 +1,39 @@
+{
+  "businessName": "BNN Piano",
+  "tagline": "Exceptional Pianos & Service",
+  "description": "Baltimore's trusted destination for new, used, and restored pianos.",
+  "domain": "https://bnpiano.com",
+  "logo": {
+    "src": "images/logo-placeholder.svg",
+    "alt": "BNN Piano logo",
+    "width": 180,
+    "height": 48
+  },
+  "primaryPhoto": {
+    "src": "images/showroom-placeholder.svg",
+    "alt": "BNN Piano showroom"
+  },
+  "contact": {
+    "addressHtml": "<strong>BNN Piano</strong><br/>[Replace with street address]<br/>[City, State ZIP]",
+    "addressInline": "BNN Piano — [Replace with street address], [City, State]",
+    "mapEmbedUrl": "https://maps.google.com",
+    "phone": {
+      "display": "(000) 000-0000",
+      "href": "tel:0000000000"
+    },
+    "email": "info@bnpiano.com",
+    "hours": "By appointment"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/",
+    "instagram": "https://www.instagram.com/",
+    "youtube": "https://www.youtube.com/",
+    "tiktok": "https://www.tiktok.com/@"
+  },
+  "seo": {
+    "title": "BNN Piano",
+    "metaDescription": "Baltimore's trusted piano showroom offering new, pre-owned, and restored instruments with expert service.",
+    "keywords": "piano, baltimore piano, used piano, grand piano",
+    "ogImage": "images/showroom-placeholder.svg"
+  }
+}
