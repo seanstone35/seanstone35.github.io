@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BNN Piano | Premium Piano Sales & Services</title>
+  <meta name="description" content="BNN Piano offers a curated selection of new, pre-owned, and refurbished pianos along with professional services." />
+  <meta name="keywords" content="piano, baltimore piano, used piano, grand piano" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="BNN Piano" />
+  <meta property="og:description" content="BNN Piano offers a curated selection of new, pre-owned, and refurbished pianos along with professional services." />
+  <meta property="og:url" content="https://bnpiano.com" />
+  <meta property="og:image" content="images/showroom-placeholder.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BNN Piano" />
+  <meta name="twitter:description" content="BNN Piano offers a curated selection of new, pre-owned, and refurbished pianos along with professional services." />
+  <meta name="twitter:image" content="images/showroom-placeholder.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="top-bar">
+      <div class="container flex-between">
+        <span>Call us: <a data-site="phone-link" href="tel:15551234567">(555) 123-4567</a></span>
+        <span class="topbar-address">Showroom: <span data-site="business-inline">123 Harmony Ave, Suite 200, Baltimore, MD</span></span>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <div class="container flex-between">
+        <a class="brand" href="#home" aria-label="BNN Piano home">
+          <img data-site="logo" src="images/logo-placeholder.svg" alt="BNN Piano" width="160" height="44" loading="lazy" />
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#inventory">Inventory</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="btn btn-primary" href="admin.html">Add a Piano</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="overlay"></div>
+      <div class="container hero-content">
+        <h1 data-site="tagline">Discover the Piano That Matches Your Voice</h1>
+        <p data-site="description">Curated pianos from world-renowned makers, meticulously restored and ready for their next performer.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#inventory">Shop Our Inventory</a>
+          <a class="btn btn-outline" href="#services">Schedule a Consultation</a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="selling-points" class="section">
+      <div class="container selling-points">
+        <article>
+          <h2>Premium Selection</h2>
+          <p>From concert grands to studio uprights, every BNN piano is hand-inspected for tonal quality, action, and finish.</p>
+        </article>
+        <article>
+          <h2>Certified Technicians</h2>
+          <p>Our in-house technicians provide tuning, voicing, and full restoration backed by decades of experience.</p>
+        </article>
+        <article>
+          <h2>Nationwide Delivery</h2>
+          <p>White-glove delivery and installation with comprehensive support and performance-ready preparation.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="inventory" class="section light-bg">
+      <div class="container">
+        <header class="section-header">
+          <h2>Featured Inventory</h2>
+          <p>Browse highlighted models or explore the full collection with smart filters.</p>
+        </header>
+
+        <div class="inventory-controls">
+          <div class="search-group">
+            <label for="search">Search</label>
+            <input type="search" id="search" placeholder="Search by model, brand, or feature" />
+          </div>
+
+          <div class="select-group">
+            <label for="type-filter">Type</label>
+            <select id="type-filter">
+              <option value="all">All Types</option>
+              <option value="Grand">Grand</option>
+              <option value="Upright">Upright</option>
+              <option value="Hybrid">Hybrid</option>
+            </select>
+          </div>
+
+          <div class="select-group">
+            <label for="price-filter">Price Range</label>
+            <select id="price-filter">
+              <option value="all">Any Price</option>
+              <option value="0-9999">Under $10,000</option>
+              <option value="10000-29999">$10,000 - $29,999</option>
+              <option value="30000-49999">$30,000 - $49,999</option>
+              <option value="50000">$50,000+</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="inventory-grid" class="inventory-grid" aria-live="polite"></div>
+        <div id="inventory-empty" class="inventory-empty hidden">No pianos match your search. Try adjusting your filters.</div>
+        <div class="inventory-footer">
+          <a class="btn btn-outline" href="inventory.html">View Full Inventory</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container services-grid">
+        <div class="services-copy">
+          <h2>Comprehensive Piano Services</h2>
+          <p>BNN Piano is more than a showroom. Our technicians and educators provide personalized support before and after your purchase.</p>
+          <ul class="icon-list">
+            <li><span class="icon">🎹</span><strong>Restoration &amp; Refinishing:</strong> Revive vintage instruments with authentic parts and finishes.</li>
+            <li><span class="icon">🎼</span><strong>Performance Preparation:</strong> Voicing, regulation, and concert tuning tailored to your venue.</li>
+            <li><span class="icon">🚚</span><strong>Logistics &amp; Installation:</strong> Climate-controlled transport and precise on-site placement.</li>
+            <li><span class="icon">🎓</span><strong>Education &amp; Studio Partnerships:</strong> Tailored packages for teachers, schools, and houses of worship.</li>
+          </ul>
+          <a class="btn btn-primary" href="#contact">Request Service</a>
+        </div>
+        <div class="services-card">
+          <h3>Trade-Ins &amp; Consignment</h3>
+          <p>Upgrade with confidence. We offer competitive trade-in valuations and consignment programs to match your piano with its next artist.</p>
+          <a class="btn btn-outline" href="mailto:sales@bnn-piano.com?subject=Trade-In%20Inquiry">Start the Conversation</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="section light-bg">
+      <div class="container reviews">
+        <header class="section-header">
+          <h2>What Clients Say</h2>
+          <p>Hear from performers, instructors, and institutions who chose BNN Piano.</p>
+        </header>
+        <div class="reviews-grid">
+          <figure class="review-card">
+            <blockquote>
+              “The BNN team guided us to the perfect concert grand and handled every detail of delivery and voicing.”
+            </blockquote>
+            <figcaption>— Alicia R., Conservatory Director</figcaption>
+          </figure>
+          <figure class="review-card">
+            <blockquote>
+              “Impeccable restoration work. Our 1920s Steinway sounds alive again.”
+            </blockquote>
+            <figcaption>— Martin L., Recording Studio Owner</figcaption>
+          </figure>
+          <figure class="review-card">
+            <blockquote>
+              “Transparent pricing, expert advice, and a stunning showroom. Highly recommend BNN Piano.”
+            </blockquote>
+            <figcaption>— Sophia K., Performer</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <h2>About BNN Piano</h2>
+          <p>With roots in Baltimore's musical community, BNN Piano was founded by technicians and performers who believe every piano should inspire.</p>
+          <p>Our showroom features rotating collections of new, pre-owned, and fully restored instruments. We partner with recital halls, educators, and families to ensure each piano is matched to its setting.</p>
+          <p>Visit us for a private audition, explore financing options, or let us bring select models to your venue for a trial.</p>
+        </div>
+        <div class="about-card">
+          <h3>Showroom Hours</h3>
+          <ul>
+            <li>Monday - Friday: 10am - 6pm</li>
+            <li>Saturday: 10am - 5pm</li>
+            <li>Sunday: <span data-site="hours">By appointment</span></li>
+          </ul>
+          <h3>Contact</h3>
+          <ul>
+            <li><a data-site="phone-link" href="tel:15551234567">(555) 123-4567</a></li>
+            <li><a data-site="email-link" href="mailto:hello@bnn-piano.com">hello@bnn-piano.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section light-bg">
+      <div class="container contact-grid">
+        <div>
+          <h2>Plan Your Visit</h2>
+          <p>Request a private appointment, ask about financing, or schedule service. We respond within one business day.</p>
+          <form class="contact-form" action="https://formspree.io/f/xgejeobk" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" />
+            </div>
+            <div class="form-group">
+              <label for="interest">Interested In</label>
+              <select id="interest" name="interest">
+                <option value="inventory">Inventory</option>
+                <option value="trade-in">Trade-In</option>
+                <option value="service">Service</option>
+                <option value="financing">Financing</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit Inquiry</button>
+          </form>
+        </div>
+        <div class="map-card">
+          <h3>Visit the Showroom</h3>
+          <div class="contact-details" data-site="business-html">BNN Piano<br />123 Harmony Ave, Suite 200<br />Baltimore, MD 21201</div>
+          <iframe title="BNN Piano Showroom" data-site="map" src="https://maps.google.com" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="#home" aria-label="BNN Piano home">
+          <img data-site="logo" src="images/logo-placeholder.svg" alt="BNN Piano" width="160" height="44" loading="lazy" />
+        </a>
+        <p>Premium piano sales, restoration, and service throughout the Mid-Atlantic.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#inventory">Inventory</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay In Tune</h4>
+        <form class="newsletter-form" action="https://formspree.io/f/mwkwggne" method="POST">
+          <label class="sr-only" for="newsletter-email">Email</label>
+          <input id="newsletter-email" name="email" type="email" placeholder="Email address" required />
+          <button class="btn btn-primary" type="submit">Join Newsletter</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container flex-between">
+        <small>&copy; <span id="year"></span> BNN Piano. All rights reserved.</small>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/site-info.js"></script>
+  <script src="assets/js/main.js" type="module"></script>
+</body>
+
+</html>

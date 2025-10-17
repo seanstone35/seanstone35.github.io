@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BNN Piano | Piano Details</title>
+  <meta name="description" content="View detailed specifications, pricing, and media for BNN Piano inventory." />
+  <meta name="keywords" content="piano, piano details, bnn piano" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="BNN Piano Inventory Detail" />
+  <meta property="og:description" content="View detailed specifications, pricing, and media for BNN Piano inventory." />
+  <meta property="og:url" content="https://bnpiano.com/product" />
+  <meta property="og:image" content="images/showroom-placeholder.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BNN Piano Inventory Detail" />
+  <meta name="twitter:description" content="View detailed specifications, pricing, and media for BNN Piano inventory." />
+  <meta name="twitter:image" content="images/showroom-placeholder.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body class="inner-page">
+  <nav class="main-nav">
+    <div class="container flex-between">
+      <a class="brand" href="index.html#home" aria-label="BNN Piano home">
+        <img data-site="logo" src="images/logo-placeholder.svg" alt="BNN Piano" width="160" height="44" loading="lazy" />
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html#inventory">Inventory</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a class="btn btn-primary" href="admin.html">Add a Piano</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section">
+      <div class="container" id="product-detail" aria-live="polite">
+        <div class="inventory-empty">Loading piano details…</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html#home" aria-label="BNN Piano home">
+          <img data-site="logo" src="images/logo-placeholder.svg" alt="BNN Piano" width="160" height="44" loading="lazy" />
+        </a>
+        <p>Premium piano sales, restoration, and service throughout the Mid-Atlantic.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html#inventory">Inventory</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay In Tune</h4>
+        <form class="newsletter-form" action="https://formspree.io/f/mwkwggne" method="POST">
+          <label class="sr-only" for="newsletter-email">Email</label>
+          <input id="newsletter-email" name="email" type="email" placeholder="Email address" required />
+          <button class="btn btn-primary" type="submit">Join Newsletter</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container flex-between">
+        <small>&copy; <span id="year"></span> BNN Piano. All rights reserved.</small>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/site-info.js"></script>
+  <script src="assets/js/product.js" type="module"></script>
+</body>
+
+</html>

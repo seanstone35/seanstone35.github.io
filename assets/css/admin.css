@@ -1,0 +1,63 @@
+body.inner-page {
+  background: var(--color-light);
+}
+
+.admin-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.admin-grid h1 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  margin-bottom: 1rem;
+}
+
+.admin-grid p {
+  color: #55596a;
+}
+
+.output-card {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+  position: sticky;
+  top: 6rem;
+}
+
+.output-card pre {
+  background: var(--color-dark);
+  color: #f7f7f7;
+  padding: 1.5rem;
+  border-radius: var(--radius-md);
+  max-height: 420px;
+  overflow: auto;
+  font-family: "Fira Code", "Courier New", monospace;
+}
+
+.form-group.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.form-group.checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 500;
+}
+
+@media (max-width: 960px) {
+  .admin-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .output-card {
+    position: static;
+  }
+}

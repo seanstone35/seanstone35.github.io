@@ -1,0 +1,86 @@
+[
+  {
+    "id": "steinway-model-d",
+    "brand": "Steinway & Sons",
+    "model": "Model D Concert Grand",
+    "type": "Grand",
+    "finish": "Ebony Polish",
+    "price": 149000,
+    "status": "Concert Ready · Certified Pre-Owned",
+    "description": "Legendary 9' concert grand with concert regulation, rebuilt action, and voiced for symphonic halls.",
+    "featured": true,
+    "thumbnail": "images/piano-placeholder.svg"
+  },
+  {
+    "id": "yamaha-c3x",
+    "brand": "Yamaha",
+    "model": "C3X Grand",
+    "type": "Grand",
+    "finish": "Polished Ebony",
+    "price": 42900,
+    "status": "Showroom New",
+    "description": "6'1\" grand featuring Yamaha's CX series refinements, responsive action, and balanced projection.",
+    "featured": true,
+    "thumbnail": "images/piano-placeholder.svg"
+  },
+  {
+    "id": "kawai-k300",
+    "brand": "Kawai",
+    "model": "K-300",
+    "type": "Upright",
+    "finish": "Satin Ebony",
+    "price": 11250,
+    "status": "Certified Pre-Owned",
+    "description": "48\" studio upright with Millenium III action, ideal for instructors and advanced students.",
+    "featured": true,
+    "thumbnail": "images/piano-placeholder.svg"
+  },
+  {
+    "id": "essex-eupr-123",
+    "brand": "Essex",
+    "model": "EUP-123FL",
+    "type": "Upright",
+    "finish": "Sapele Mahogany",
+    "price": 8995,
+    "status": "Like New · One Owner",
+    "description": "Designed by Steinway, this 48\" upright pairs warm tonewoods with responsive action.",
+    "featured": false,
+    "thumbnail": "images/piano-placeholder.svg"
+  },
+  {
+    "id": "mason-hamlin-a",
+    "brand": "Mason & Hamlin",
+    "model": "Model A",
+    "type": "Grand",
+    "finish": "Satin Ebony",
+    "price": 68900,
+    "status": "Fully Restored",
+    "description": "5'8\" grand with new soundboard, pinblock, and Renner action parts—crafted in Boston.",
+    "featured": false,
+    "thumbnail": "images/piano-placeholder.svg"
+  },
+  {
+    "id": "roland-lx708",
+    "brand": "Roland",
+    "model": "LX708",
+    "type": "Hybrid",
+    "finish": "Polished White",
+    "price": 7999,
+    "status": "Showroom Demo",
+    "description": "Flagship hybrid with PureAcoustic modeling, spatial speakers, and Bluetooth audio/MIDI.",
+    "featured": false,
+    "thumbnail": "images/piano-placeholder.svg"
+  },
+  {
+    "id": "bluthner-model-6",
+    "brand": "Blüthner",
+    "model": "Model 6",
+    "type": "Grand",
+    "finish": "Burl Walnut",
+    "price": 98500,
+    "status": "Imported · Concert Voiced",
+    "description": "6'3\" grand with the Aliquot stringing system, romantic tone ideal for salons and studios.",
+    "featured": false,
+    "thumbnail": "images/piano-placeholder.svg"
+  }
+]
